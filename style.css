@@ -1,0 +1,395 @@
+*{margin: 0; padding: 0; border: 0;}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #000235;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1065px;
+    margin: 0 auto;
+}
+
+.ellipse-first {
+    position: absolute;
+    z-index: -1;
+    left: 156px;
+}
+
+/* HEADER--------------------------------------------------------------------------- */
+
+header {
+    padding-top: 100px;
+    padding-bottom: 110px;
+}
+
+.nav__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__logo {
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.nav__links ul {
+    display: flex;
+}
+
+.nav__links ul a {
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+.info {
+    margin-top: 127px;
+    position: relative;
+}
+
+.info__background {
+    position: absolute;
+    width: 539px;
+    right: 0;
+    top: -110px;
+}
+
+.info__title {
+    width: 514px;
+    margin-bottom: 20px;
+}
+
+.info__title h1 {
+    color: #fff;
+    font-size: 83px;
+    line-height: 84px;
+    font-weight: 900;
+}
+
+.info__subtitle {
+    width: 359px;
+    margin-bottom: 55px;
+}
+
+.info__subtitle p {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.info__buttons {
+    display: flex;
+}
+
+.buy {
+    background-color: #9090DC;
+    color: #fff;
+    padding: 22px 64.5px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 83px;
+    margin-right: 20px;
+}
+
+.sell {
+    background: transparent;
+    color: #fff;
+    padding: 22px 64.5px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 83px;
+    border: 1px solid #fff;
+}
+
+/* SECTION--------------------------------------------------------------------------- */
+
+section h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+
+.companies {
+    width: 1060px;
+    background: rgba(99, 88, 189, 0.19);
+    opacity: 0.73;
+    border-radius: 11px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* MAIN------------------------------------------------------------------------ */
+
+main {
+    padding-top: 140px;
+    padding-bottom: 135px;
+}
+
+.main__background1 {
+    width: 470px;
+    margin-top: -60px;
+}
+
+.analytics {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.analytics__inner {
+    width: 493px;
+}
+
+.word__analytics {
+    font-size: 20px;
+    font-weight: 600;
+    color: #AAD9D9;
+    letter-spacing: 0.1em;
+    margin-bottom: 10px;
+}
+
+.analytics__title {
+    color: #fff;
+    font-size: 57px;
+    font-weight: 900;
+    line-height: 58px;
+    margin-bottom: 10px;
+}
+
+.analytics__subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 28px;
+    margin-bottom: 23px;
+}
+
+.analytics__button {
+    background-color: #9090DC;
+    color: #fff;
+    padding: 22px 64.5px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 83px;
+    margin-right: 20px;
+}
+
+.getapp {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.main__background2 {
+    width: 494px;
+    margin-top: -85px;
+}
+
+.getapp__inner {
+    width: 493px;
+}
+
+.getourapp {
+    color: #AAD9D9;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    margin-bottom: 10px;
+}
+
+.getapp__title {
+    font-size: 57px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 58px;
+    margin-bottom: 10px;
+}
+
+.getapp__subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+.getapp__button {
+    background-color: #9090DC;
+    color: #fff;
+    padding: 22px 64.5px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 83px;
+    margin-right: 20px;
+}
+
+.testimonials {
+    margin-bottom: 66px;
+}
+
+.word__testimonials {
+    color: #AAD9D9;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    margin-bottom: 15px;
+}
+
+.testimonials__title {
+    width: 499px;
+    margin: 0 auto;
+}
+
+.testimonials__title h3 {
+    color: #fff;
+    font-size: 57px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 122px;
+}
+
+.testimonials__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block {
+    width: 259px;
+    text-align: center;
+    padding: 0 38px;
+    border-radius: 20px;
+    background-color: #0E0E48;
+    position: relative;
+}
+
+.block__image {
+    position: absolute;
+    top: -69px;
+    right: 106px;
+}
+
+.block__image img {
+    border-radius: 50%;
+    mix-blend-mode: luminosity;
+}
+
+.block__title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 0.1em;
+    margin-top: 75px;
+    margin-bottom: 14px;
+}
+
+.block__subtitle {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.getstarted {
+    background: linear-gradient(277.69deg, #AAD9D9 -9.79%, #9090DC 84.42%, #7D7DDC 84.42%);
+    border-radius: 34px;
+    padding: 57px 0 30px;
+    text-align: center;
+}
+
+.word__ready {
+    color: #0E0E48;
+    letter-spacing: 0.1em;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.getstarted__title {
+    width: 447px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.getstarted__title h4 {
+    color: #fff;
+    font-size: 57px;
+    font-weight: 900;
+}
+
+.getstarted__button {
+    margin-top: 60px;
+    background-color: #0E0E48;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    padding: 22px 54px;
+    border-radius: 83px;
+}
+
+/* FOOTER---------------------------------------------------------------------------- */
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 128px;
+}
+
+.footer__logo {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.footer__inner p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer__links {
+    line-height: 31px;
+}
+
+.footer__links a {
+    color: #fff;
+}
+
+.email__title {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.email {
+    background-color: #11124B;
+    border-radius: 70px;
+    padding-left: 27px;
+    padding-top: 14px;
+    padding-bottom: 11px;
+    color: #fff;
+}
+
+.email::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
